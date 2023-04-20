@@ -50,25 +50,28 @@ HTML stands for: Hypertext Markup Language
 
 6. Explain block Elements and also explain the list of block elements and why they are used from below:
 block elements: they are elements that start a new line in the code and use the full width of the page. They are commonly used to group together information and keep them in a "block" together.
-Html: 
-head
-body: 
-Header: the header includes introductory content and is located at top of the page.
-Nav: it is the section of the website that provides navigation links.
-Main: the main wraps around main content of the page.
-Section: the section wraps around a related pieces of content.
-Article: the article wraps around self- contained composition in a web page.
-Div: the div is used to group elements together.
-aside: it is used to group together content that is indirectly reltated to the main content of the page.
-Footer: it is located at the bottom of page and includes copyright, links and extra information.
-Span: it is a container used to mark up part of a text.
-small: 
+- Html: it is used to structure a web page and its contents. 
+- head: it is placed between the html and the body tag and contains metadata.
+- body: it is used to define the main section of text in the document, also known as the body. It contains all of the contents shown in the document such as headings, images and paragraphs.
+- Header: the header includes introductory content and is located at top of the page.
+- Nav: it is the section of the website that provides navigation links.
+- Main: the main wraps around main content of the page.
+- Section: the section wraps around a related pieces of content.
+- Article: the article wraps around self- contained composition in a web page.
+- Div: the div is used to group elements together.
+- aside: it is used to group together content that is indirectly reltated to the main content of the page.
+- Footer: it is located at the bottom of page and includes copyright, links and extra information.
+- Span: it is a container used to mark up part of a text.
+- small: it is a container used to section elements of the document such as a copyright tag or side comments. 
 
 7. Explain why accessibility is important and also explain the accessibility properties like:
-landmark roles
-aria labels
-image alternative texts
+Acessibility is important because it lets everyone including users with disabilities can access information equally and easily. 
+- landmark roles: they are sections of the page that have been identified programically. They help users to orient themselves to a page and navigate to various sections with ease.
+- aria labels: it is a label defined in the WAI-ARIA specefication. It is used to provide labels for objects to allow those with assisitive technology to access the information more easily.
+- image alternative texts: it is a short written description of an image shown on the page, it allows those who cannot view the image to understand what is being shown.
+
 8. What is CSS and how can we implement CSS to our html file (write a proper explanation with the code required to attach a CSS file inside html file)
+
 9. What is the difference between CSS property and value (write explanation and an example code)
 10. Why do we use border-box property in CSS?
 11. Explain different type of ways we can add spacing to an element
